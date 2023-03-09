@@ -1,0 +1,182 @@
+* {
+  color: #454545;
+  font-family: Calibri;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid gainsboro;
+  padding: 2px 1.25%;
+}
+.birinci-kisim {
+  width: 100%;
+  padding: 12px 24px;
+}
+
+.ust-butonlar {
+  padding: 20px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: #454545;
+}
+h1 {
+  margin: 0;
+  padding-left: 37.5%;
+  text-align: center;
+  font-family: Righteouse, Verdana, Geneva, Tahoma, sans-serif;
+  color: wheat;
+}
+.ikinci-kisim {
+  padding: 30px 400px;
+  text-align: center;
+}
+.buton {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #01796f;
+  color: white;
+}
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img.ucuncu-kisim {
+  padding: 3px;
+  background-color: #454545;
+  border: 5px solid #565656;
+}
+.dorduncu-kisim {
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 20px;
+}
+p.hobilerim {
+  margin: auto;
+  width: 50%;
+  background-color: #b2a2ac;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+.son-kisim {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #f8f4ff;
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .ust-butonlar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  h1 {
+    margin: 0;
+    padding-left: 75px;
+    text-align: left;
+  }
+  .ikinci-kisim {
+    padding: 10px 100px;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .orta-butonlar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .buton {
+    padding: 2px 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  img.ucuncu-kisim {
+    width: 650px;
+  }
+  .dorduncu-kisim {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  img.dortlu {
+    width: 100px;
+  }
+  p.hobilerim {
+    padding: 38px;
+    display: inline-flex;
+    text-align: center;
+  }
+  .son-kisim {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .ust-butonlar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  h1 {
+    margin: 0;
+    padding-left: 75px;
+    text-align: left;
+  }
+  .ikinci-kisim {
+    padding: 10px 100px;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .orta-butonlar {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+  .buton {
+    padding: 2px 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  img.ucuncu-kisim {
+    width: 85%;
+  }
+  .dorduncu-kisim {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  img.dortlu {
+    width: 32%;
+  }
+  p.hobilerim {
+    padding: 38px;
+    display: inline-flex;
+    text-align: center;
+  }
+  .son-kisim {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  /* body {
+    background-color: rgba(255, 99, 71, 0.9);
+  } */
+  .containerClamp {
+    width: 900px;
+  }
+}
